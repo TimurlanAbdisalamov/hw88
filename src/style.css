@@ -1,46 +1,61 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-  }
-  
-  .app {
-    text-align: center;
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
-  
-  input {
-    padding: 10px;
-    margin-right: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-  }
-  
-  button {
-    padding: 10px 20px;
-    border-radius: 5px;
-    border: none;
-    background-color: #007BFF;
-    color: white;
-    cursor: pointer;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin: 5px 0;
-    padding: 10px;
-    background-color: #f9f9f9;
-    border-radius: 5px;
-  }
-  
+  font-family: 'Courier New', Courier, monospace;
+  background: linear-gradient(135deg, #ffdfba, #ff9a9e);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.app {
+  text-align: left;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  max-width: 80%;
+}
+
+input {
+  padding: 12px;
+  width: calc(100% - 90px);
+  margin-right: 10px;
+  border-radius: 15px;
+  border: 2px solid #8b008b;
+  font-family: inherit;
+  outline: none;
+  color: #8b008b;
+}
+
+button {
+  padding: 12px 20px;
+  border-radius: 15px;
+  border: 2px solid #8b008b;
+  background: transparent;
+  color: #8b008b;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #8b008b;
+  color: white;
+}
+
+ul {
+  list-style-type: square;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  margin: 8px 0;
+  padding: 12px;
+  background-color: #ffefef;
+  border-radius: 10px;
+  color: #333;
+  font-size: 0.9em;
+}
